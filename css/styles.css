@@ -2,14 +2,11 @@
   box-sizing: border-box;
 }
 
-/*.hero img {
-  position: relative;
-  width: 300px;
-}*/
-
 #wrapper {
   margin: 0;
   font-family: 'PT Sans', sans-serif;
+  overflow: auto;
+  background-color: #B30089;
 }
 
 #header {
@@ -26,7 +23,6 @@
 
 #nav ul {
   list-style-image: url(../img/horse.png);
-
   display: inline;
   float: right;
   color: white;
@@ -44,4 +40,56 @@
 #nav img {
   padding-left: 53px;
   padding-top: 12px;
+}
+
+#main {
+  float: left;
+  width: 50%;
+}
+
+#sidebar {
+  float: right;
+  width: 50%;
+  height: 516px;
+  overflow: hidden;
+}
+
+.row-top {
+  width: 80%;
+  margin: 0 auto;
+}
+.row-bottom {
+  width: 80%;
+  margin: 0 auto;
+}
+.row-top img, .row-bottom img {
+  width: 49%;
+  height: 173px;
+  padding: 5px;
+}
+
+
+.element {
+  shape-outside: url(../img/brush.png);
+  shape-image-threshold: 0.5;
+  float: left;
+  width: 30%;
+  z-index: -1;
+}
+
+.hero {
+  width: 100vw;
+}
+
+button {
+  background-color: #F62DAE;
+  font-size: 30px;
+  border-style: dashed;
+}
+
+#footer {
+  background-color: #FD96A9;
+  height: 100px;
+  width: auto;
+  clear: both;
 }
