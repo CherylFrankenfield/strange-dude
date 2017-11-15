@@ -8,19 +8,40 @@
 }*/
 
 #wrapper {
-
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
 #header {
-  float: left;
   width: 500px;
 }
 
 #nav {
   float: right;
-  width: 200px;
+  background-color: #470063;
+  overflow: auto;
+  width: 99vw;
+  background color:;
 }
 
-#nav ul li {
-  list-style: none;
+#nav ul {
+  list-style-image: url(../img/horse.png);
+
+  display: inline;
+  float: right;
+  color: white;
+  font-size: 35px;
+}
+
+#nav li {
+  float: left;
+  padding: 12px;
+  margin-left: 19px;
+  margin-right: 16px;
+  /* display: inline; */
+}
+
+#nav img {
+  padding-left: 53px;
+  padding-top: 12px;
 }
